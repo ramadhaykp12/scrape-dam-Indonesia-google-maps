@@ -12,6 +12,7 @@ driver.get("https://www.google.com/maps")
 # Data untuk referensi nama daerah
 data = pd.read_csv('daftar bendungan.csv')  
 
+# List untuk menyimpan data
 addresses = []
 latitudes = []
 longitudes = []
